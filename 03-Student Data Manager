@@ -1,0 +1,27 @@
+students = {
+    "A": 85,
+    "B": 92,
+    "C": 78,
+    "D": 88,
+    "E": 95
+}
+
+# Topper
+topper = max(students, key=students.get)
+print("Topper:", topper)
+
+# Average
+avg = sum(students.values()) / len(students)
+print("Average:", avg)
+
+# Grades
+for name, marks in students.items():
+    if marks >= 90:
+        grade = "A"
+    elif marks >= 75:
+        grade = "B"
+    else:
+        grade = "C"
+    print(name, ":", grade)
+
+
