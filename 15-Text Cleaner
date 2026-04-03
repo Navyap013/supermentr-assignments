@@ -1,0 +1,8 @@
+import re
+
+text = "Hello!!! THIS is #AI "
+
+text = text.lower()
+text = re.sub(r'[^\w\s]', '', text)
+
+print(text)
