@@ -1,0 +1,3 @@
+Features: keywords, frequency, sender
+Model: Naive Bayes
+Errors: false positives
