@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+data = {'A':[10,20,30], 'B':[15,25,35]}
+df = pd.DataFrame(data)
+
+df.plot(kind='bar')
+plt.show()
+
+df.plot(kind='pie', subplots=True)
+plt.show()
+
+df.plot(kind='hist')
+plt.show()
