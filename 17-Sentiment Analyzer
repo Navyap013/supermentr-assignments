@@ -1,0 +1,6 @@
+from textblob import TextBlob
+
+text = "I love AI"
+analysis = TextBlob(text)
+
+print(analysis.sentiment)
